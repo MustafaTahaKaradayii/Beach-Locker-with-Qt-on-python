@@ -1,0 +1,46 @@
+{
+    "Users": [
+        {
+            "id": 1,
+            "username": "he",
+            "email": "he",
+            "user_type": "user",
+            "password_hash": "$2b$12$ahANPJCW2RmcHEMXRGEp.uH7KnD.22K9ZxKZ57fIathbpUnZGxj4i"
+        },
+        {
+            "id": 2,
+            "username": "aa",
+            "email": "a@gmail.com",
+            "user_type": "user",
+            "password_hash": "$2b$12$a7MtUbybspIYrdjSVUIoROHo6otZ.6Sp8j9bQKTEk8XgdaKsA3iKi"
+        },
+        {
+            "id": 3,
+            "username": "ab",
+            "email": "ab@gmail.com",
+            "user_type": "user",
+            "password_hash": "$2b$12$aPO2jONn4CQZIZ2FMku4Ae/Slc4/d7JQxYo8GEp1kDKKGoO89HeYi"
+        },
+        {
+            "id": 4,
+            "username": "beyda",
+            "email": "beyda@gmail.com",
+            "user_type": "user",
+            "password_hash": "$2b$12$7Y6QVOmgC/nPwamy3okS3uKQt9B.RVgm0L9dHPi6LqtguxTrtjEBy"
+        },
+        {
+            "id": 5,
+            "username": "beydaa",
+            "email": "beydaa@gmail.com",
+            "user_type": "user",
+            "password_hash": "$2b$12$9ZuE1OYAUVHj0iPQfB15XOVq8Y/9g/ky9r1e/.rsyGIS44XylEJ8C"
+        },
+        {
+            "id": 6,
+            "username": "we",
+            "email": "we@gmail.com",
+            "user_type": "user",
+            "password_hash": "$2b$12$Tz1dR17UZDxtc7s8.eai4.9WqAzmey47D1T0GnNo09ljIPdpYXvUO"
+        }
+    ]
+}

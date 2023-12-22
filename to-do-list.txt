@@ -1,0 +1,89 @@
+(Inanc)
+
+>> admin box'lari temizleyebilir
+    >> temizlik yapildiginda odeme alinacak
+        >> login by admin => box temizligi
+            >> temizlik yapildiginda, odeme temini.
+
+
+>> display user info on the boxes page too:
+    >> user name  
+    >> user email
+    >> type
+
+
+=> auth_user returns user_id
+    >> instead user object.
+>> need to pass the user object into BoxesWindow
+
+>> first need to test to show user info within the boxes window?
+
+
+
+
+------------------------------------------------------------------------------------------
+
+
+
+
+(TAHA)
+
+---------------------------------
+
+
+
+>> email validation with regex.
+    >> email unique olsun
+    >> "username" to "name" >> unique degil
+        >> PSEUDO CODE:
+            def isValidEmail(email){
+                regex ...
+
+                return true or false.
+            }
+
+>> user box history:
+    >> layout:
+        >> ana layout: horizontal layout
+            >> includes:
+                >> grid layout for boxes
+                >> vertical layout for user log.
+                    >> icine asagidaki info listesi girecek.
+
+
+
+    >> hangi box kiralandi
+        >> zaman araligi
+        >> ucret
+        >> eger admin temizlik yaptiysa:
+            >> "Lutfen itemlerinizi ofisten toplayiniz"
+            >> EXAMPLE users.json: 
+                            User objesi >>
+                            {
+                            "id": 8,
+                            "username": "maat",
+                            "email": "maat",
+                            "password_hash": "$2b$12$BXCY7V7ibBEj1f0KXNk13eISqjRlO.DY.pyqLRVC.yE4SP54eoKRy",
+                            "box_history" : {
+                                {
+                                    "box_id": 1,
+                                    "start_time": ,
+                                    "end_time": ,
+                                    "cost" ,
+                                    "cleaned_by_admin": true/false
+                                },
+                                {
+
+                                },
+                                {
+
+                                }
+                            }
+                            },
+
+
+
+
+
+
+
